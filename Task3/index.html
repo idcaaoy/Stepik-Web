@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Общая информация</legend>
+        <div>
+            <label for="Surname">   Фамилия</label>  <input id="Surname"    placeholder="Иванов"       name="Surname"    type="text">
+        </div>
+        <div>
+            <label for="Name">      Имя</label>      <input id="Name"       placeholder="Иван"         name="Name"       type="text">        
+        </div>
+        <div>
+            <label for="Patronym">  Отчество</label> <input id="Patronym"   placeholder="Иванович"     name="Patronym"   type="text">
+        </div>
+        <div>
+            <label for="Email">     Email</label>    <input id="Email"      placeholder="mail@mail.ru" name="Email"      type="text">
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Пол</legend>
+        <input type="radio" id="male"   name="gender" value="male">
+        <label for="male">  М</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Ж</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Хобби</legend>
+        <input type="checkbox" id="Drawing" name="Hobby" value="Drawing">
+        <label for="Drawing">Рисование</label>
+
+        <input type="checkbox" id="Reading" name="Hobby" value="Reading">
+    </fieldset>
+</body>
+</html>
